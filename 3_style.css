@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 36px;
+}
+button, input[type="text"] {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}

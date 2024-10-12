@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.container {
+  display: flex;
+  gap: 10px;
+}
+.box {
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 300px;
+}
+.box1 .top {
+  background-color: rgb(255, 51, 0);
+  flex: 4;
+  border: 3px solid gray;
+}
+.box1 .bottom {
+  display: flex;
+  flex: 1;
+}
+.box1 .bottom .small {
+  background-color: orange;
+  flex: 1;
+  border: 3px solid gray;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+}
+.box2 .top {
+  background-color: rgb(136, 8, 175);
+  flex: 2;
+  border: 3px solid gray;
+}
+.box2 .middle {
+  background-color: magenta;
+  flex: 1;
+  border: 3px solid gray;
+}
+.box2 .bottom {
+  background-color: aquamarine;
+  flex: 1;
+  border: 3px solid gray;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 300px;
+}
+.box3 .top {
+  display: flex;
+  flex: 2;
+  background-color: dodgerblue;
+  border-left: 3px solid gray;
+  border-right: 3px solid gray;
+  border-top: 3px solid gray;
+  justify-content: center;
+  align-items: center;
+}
+.box3 .top .line {
+  background-color: #ff0000;
+  width: 5px;
+  height: 100%;
+  margin: 0 14px;
+}
+.box3 .bottom {
+  background-color: forestgreen;
+  flex: 1;
+  border-left: 3px solid gray;
+  border-right: 3px solid gray;
+  border-bottom: 3px solid gray;
+}
